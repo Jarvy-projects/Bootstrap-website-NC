@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-v1",
   "version": "1.0.0",
-  "description": "Bootstrap project",
+  "description": "Bootstrap portfolio project",
   "main": "index.html",
   "dependencies": {
     "bootstrap": "^4.5.2",
