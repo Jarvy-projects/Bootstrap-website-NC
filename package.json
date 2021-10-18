@@ -4,6 +4,7 @@
   "description": "Bootstrap portfolio project",
   "main": "index.html",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "bootstrap": "^4.5.2",
     "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
