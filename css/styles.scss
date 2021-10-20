@@ -2,3 +2,15 @@ $color-primary: #A6E3E9;
 $color-secondary: #CBF1F5;
 $color-dark: #71C9CE;
 $color-pale: #E3FDFD;
+
+.jumbotron {
+    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
+    color: black;
+    padding: 30px;
+    margin: 0;
+}
+
+.navbar {
+    background-color: $color-dark;
+}
+

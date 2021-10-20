@@ -8,3 +8,17 @@
 .navbar {
     background-color: #71C9CE;
 }
+
+.carousel {
+    height: ;
+    width: 50%;
+    margin: auto;
+}
+
+#cta{
+    margin: auto;
+}
+
+.btn-social-icon:hover{
+    color: red;
+}
