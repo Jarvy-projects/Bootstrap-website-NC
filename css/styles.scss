@@ -3,6 +3,11 @@ $color-secondary: #CBF1F5;
 $color-dark: #71C9CE;
 $color-pale: #E3FDFD;
 
+$body-font: "Maven Pro", sans-serif;
+$header-font: "Gudea", sans-serif;
+// font-family: 'Gudea', sans-serif;
+// font-family: 'Maven Pro', sans-serif;
+
 .jumbotron {
     background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
     color: black;
