@@ -6,11 +6,16 @@
     font-family: "Maven Pro", sans-serif;
 }
 
-.carousel {
+.nav-item {
+    font-family: "Gudea", sans-serif;
+    font-size: 1.5rem;
+    padding-left: 11%;
+}
 
+/* .carousel {
     height: 50%;
     margin: auto;
-}
+} */
 
 .card-list {
     font-family: "Maven Pro", sans-serif;
