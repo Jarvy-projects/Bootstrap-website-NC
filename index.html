@@ -19,35 +19,23 @@
 
 </head>
 
-<body>
+<body class="bg-light">
 
-  <body>
-    <header class="jumbotron jumbotron-fluid">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-4 col-sm-3 col-md-2 align-self-center">
-            <img src="images/cabinet.png" class="img-fluid jumbo-img" />
-          </div>
-          <div class="col">
-            <h1 class="jumbo-header">One More Continue PDX</h1>
-            <h2 class="jumbo-header">Video game bar</h2>
-          </div>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-sticky-top navbar-light bg-white py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#"></a><img src="images/2021-10-21.png" alt="logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPancake"><span
+            class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarPancake">
+          <ul class="navbar-nav m-sm-auto">
+            <li class="nav-item active"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="locations.html">More</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </header>
-
-    <nav class="navbar navbar-expand-lg navbar-sticky-top">
-      <a class="navbar-brand" href="#"><i class="fa fa-gamepad fa-lg"></i></a><button class="navbar-toggler"
-        type="button" data-toggle="collapse" data-target="#navbarPancake"><span
-          class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="navbarPancake">
-        <ul class="nav">
-          <li class="nav-item active"><a class="nav-link active" href="#"><i class="fa fa-home"></i> Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info"></i> About</a></li>
-          <li class="nav-item"><a class="nav-link" href="locations.html"> More</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa fa-address-book"></i> Contact</a>
-          </li>
-        </ul>
       </div>
     </nav>
     <br />
@@ -68,13 +56,6 @@
                 of food.</li>
             </ul>
           </div>
-          <!-- <h3>Drinks, games, fun</h3>
-                <p>Come to our unique lounge and experience all of our unique services.</p>
-                <ul>We offer
-                    <li>Actual coin arcade, that's right bring your quarters.</li>
-                    <li>Drinks - 12 kinds of beer on tap</li>
-                    <li>Food</li>
-                </ul> -->
         </div>
         <div class="col-sm-6">
           <div class="card">
@@ -88,16 +69,16 @@
     </div>
     <br />
     <!-- CAROUSEL -->
-    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleInterval" class="container carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-        <div class="container-fluid carousel-item active" data-interval="10000">
+        <div class="carousel-item active" data-interval="10000">
           <img src="images/playing at arcade.jpg" class="d-block w-100 carousel-image" alt="playing arcade cabinet">
         </div>
-        <div class="container-fluid carousel-item" data-interval="2000">
+        <div class="carousel-item" data-interval="2000">
           <img src="images/playing while drinking beer.jpg" class="d-block w-100 carousel-image"
             alt="playing while drinking">
         </div>
-        <div class="container-fluid carousel-item carousel-image">
+        <div class="carousel-item carousel-image">
           <img src="images/beer arcade.jpg" class="d-block w-100" alt="Flight of beers">
         </div>
       </div>
@@ -114,14 +95,14 @@
     <!-- <h2 class="text-center">Three ways to play</h2> -->
     <br />
     <!-- 3x Panel Prices -->
-    <div class="pricing-section" id="pricing">
+    <div class="container pricing-section" id="pricing">
       <h2 class="section-heading text-center">Multiple ways to play</h2>
       <p class="section-subhead text-center">Simple and affordable ways for you to enjoy us.</p>
       <div class="row">
         <div class="pricing-column col-lg-4 col-md-6 col-sm-12">
           <div class="card">
             <div class="card-header">
-              <h3 class="card-header-text">Visitor</h3>
+              <h3 class="card-header-text">Noob</h3>
             </div>
             <div class="card-body">
               <h2 class="price-text">$5 per visit</h2>
@@ -135,7 +116,7 @@
         <div class="pricing-column col-lg-4 col-md-6 col-sm-12">
           <div class="card">
             <div class="card-header">
-              <h3 class="card-header-text">Hero Tier</h3>
+              <h3 class="card-header-text">Hero</h3>
             </div>
             <div class="card-body">
               <h2 class="price-text">$49 / year</h2>
@@ -167,30 +148,32 @@
       </div>
     </div>
     <br />
+    <!-- APP/CTA -->
     <div class="app-buttons" id="cta">
       <div class="container-fluid text-center">
         <h3 class=cta-text>Download our app to see our menu and daily specials.</h3>
         <button class="cta-buttons btn btn-secondary btn-lg" type="button"><i class="fa fa-apple"></i> Download</button>
-        <button class="cta-buttons btn btn-light btn-lg" type="button"><i class="fa fa-google"></i>
+        <button class="cta-buttons btn btn-dark btn-lg" type="button"><i class="fa fa-google"></i>
           Download</button>
       </div>
     </div>
     <br />
+    <!-- FOOTER -->
     <footer class="site-footer">
-      <div class="container-fluid text-center">
+      <div class="container text-center">
         <div class="row">
-          <div class="col-4 offset-1 col-sm-2">
-            <h5>Links</h5>
+          <div class="col-4 col-sm-2">
+            <h5 class="text-danger">Links</h5>
             <ul class="list-unstyled">
-              <li><a href="#">Home</a></li>
-              <li><a href="aboutus.html">About</a></li>
-              <li><a href="#">More</a></li>
-              <li><a href="contactus.html">Contact</a></li>
+              <li><a class="text-white" href="#">Home</a></li>
+              <li><a class="text-white" href="aboutus.html">About</a></li>
+              <li><a class="text-white" href="#">More</a></li>
+              <li><a class="text-white" href="contactus.html">Contact</a></li>
             </ul>
           </div>
 
-          <div class="col-6 col-sm-5 text-center footer-foot">
-            <h5 class="footer-text">Social</h5>
+          <div class="col offset-2 col-sm-4 footer-foot">
+            <h5 class="footer-text text-danger">Social</h5>
             <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
                 class="fa fa-instagram fa-lg"></i> </a>
             <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook fa-lg"></i>
@@ -201,15 +184,18 @@
             </a>
           </div>
 
+          <!-- <div class="row row-content"> -->
           <div class="col-sm-4">
-            <a role="button" class="btn btn-link" href="tel:+15035551234"><i class="fa fa-phone"></i>
+            <a role="button" class="btn btn-link text-danger" href="tel:+15035551234"><i class="fa fa-phone"></i>
               1-503-555-1234</a><br>
-            <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i>
+            <a role="button" class="btn btn-link text-white" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i>
               onemorecontinuepdx@continuepdx.com</a>
+            <!-- </div> -->
           </div>
         </div>
-      </div>
-
+        <div class="row">
+          <div class="col text-center text-secondary">©Copyright Jarvy Gomez Rosas 2021</div>
+        </div>
     </footer>
 
 

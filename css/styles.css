@@ -1,31 +1,14 @@
 /* // font-family: 'Gudea', sans-serif;
 // font-family: 'Maven Pro', sans-serif; */
 
-.jumbotron {
-    background-image: linear-gradient(to right, #CBF1F5, #A6E3E9, #71C9CE);
-    color: black;
-    padding: 30px;
-    margin: 0;
-}
-
-.jumbo-header {
-    font-family: "Gudea", sans-serif;
-}
-
-.jumbo-img {
-    width: 30%;
-}
-
-.navbar {
-    background-color: #71C9CE;
-}
 
 .panel-2-text {
     font-family: "Maven Pro", sans-serif;
 }
 
 .carousel {
-    width: 68%;
+
+    height: 50%;
     margin: auto;
 }
 
@@ -51,6 +34,10 @@
     color: red;
 }
 
+.btn-social-icon{
+    color: white;
+}
+
 .section-heading{
     font-family: "Gudea", sans-serif;
     font-size: 3.0rem;
@@ -60,6 +47,7 @@
 .section-subhead{
     font-family: "Gudea", sans-serif;
     font-size: 1.3rem;
+    padding-bottom: 1%;
 }
 
 .card-header {
@@ -83,12 +71,8 @@
     font-family: "Maven Pro", sans-serif;
 }
 
-#pricing {
-    padding: 100px;
-}
-
 .pricing-column {
-    padding: 3% 2%;
+    padding: 3%,0;
 }
 
 .price-text {
@@ -97,14 +81,7 @@
 }
 
 .site-footer {
-    background-image: linear-gradient(#71C9CE, white);
+    background-color: black;
     padding: 20px 0;
-}
-
-.footer-text{
     font-family: "Maven Pro", sans-serif;
-}
-
-.footer-foot{
-    margin-left: 105px;
 }
