@@ -1,7 +1,6 @@
 /* // font-family: 'Gudea', sans-serif;
 // font-family: 'Maven Pro', sans-serif; */
 
-
 .panel-2-text {
     font-family: "Maven Pro", sans-serif;
 }
@@ -39,17 +38,17 @@
     color: red;
 }
 
-.btn-social-icon{
+.btn-social-icon {
     color: white;
 }
 
-.section-heading{
+.section-heading {
     font-family: "Gudea", sans-serif;
     font-size: 3.0rem;
     font-weight: bold;
 }
 
-.section-subhead{
+.section-subhead {
     font-family: "Gudea", sans-serif;
     font-size: 1.3rem;
     padding-bottom: 1%;
@@ -77,7 +76,7 @@
 }
 
 .pricing-column {
-    padding: 3%,0;
+    padding: 3%, 0;
 }
 
 .price-text {
@@ -90,3 +89,8 @@
     padding: 20px 0;
     font-family: "Maven Pro", sans-serif;
 }
+
+.footer-about{
+    margin-top: 345px;
+}
+
