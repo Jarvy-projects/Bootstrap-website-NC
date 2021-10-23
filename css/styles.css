@@ -79,6 +79,10 @@
     padding: 3%, 0;
 }
 
+.pricing-section{
+    padding-top: 100px;
+}
+
 .price-text {
     font-size: 3rem;
     line-height: 1.5;
@@ -90,7 +94,14 @@
     font-family: "Maven Pro", sans-serif;
 }
 
-.footer-about{
+.footer-about {
     margin-top: 345px;
 }
 
+.res-form{
+    font-family: "Maven Pro", sans-serif;
+}
+
+.contact-section{
+    font-family: "Maven Pro", sans-serif;
+}
