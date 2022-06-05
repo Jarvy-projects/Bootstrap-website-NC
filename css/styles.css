@@ -33,7 +33,7 @@ body {
     font-family: "Gudea", sans-serif;
     padding-top: 20px;
     padding-bottom: 30px;
-    color: red
+    color: #dc3545
 }
 
 .app-buttons {
@@ -41,7 +41,7 @@ body {
 }
 
 .btn-social-icon:hover {
-    color: red;
+    color: #dc3545;
 }
 
 .btn-social-icon {
@@ -52,14 +52,14 @@ body {
     font-family: "Gudea", sans-serif;
     font-size: 3.0rem;
     font-weight: bold;
-    color: red;
+    color: #dc3545;
 }
 
 .section-subhead {
     font-family: "Gudea", sans-serif;
     font-size: 1.3rem;
     padding-bottom: 1%;
-    color: red;
+    color: #dc3545;
 }
 
 .card-header {
@@ -112,8 +112,9 @@ body {
 
 .contact-section {
     font-family: "Maven Pro", sans-serif;
+    color: #dc3545;
 }
 
 .label-text {
-    color: red;
+    color: #dc3545;
 }
